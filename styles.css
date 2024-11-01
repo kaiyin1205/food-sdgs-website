@@ -9,7 +9,7 @@ body {
 
 /* 標題樣式 */
 h1, h2, h3 {
-    color: #333;
+    color: #4B0082;
 }
 
 /* 網頁內容容器 */
@@ -36,8 +36,8 @@ nav {
 }
 
 .logo img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     margin-right: 5px;
 }
 
