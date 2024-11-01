@@ -6,10 +6,9 @@ body {
     padding: 0;
     background-color: #d4cfb8;
 }
-
 /* 標題樣式 */
 h1, h2, h3 {
-    color: #4B0082;
+    color: #333; /* 保持標題顏色為深灰色 */
 }
 
 /* 網頁內容容器 */
@@ -21,8 +20,8 @@ h1, h2, h3 {
 
 /* 導航欄樣式 */
 nav {
-    background: #d4cfb8;
-    color: #ffffff;
+    background: #d4cfb8; /* 米色背景 */
+    color: #000000; /* 黑色字體 */
     padding: 10px 0;
     display: flex;
     align-items: center;
@@ -36,14 +35,17 @@ nav {
 }
 
 .logo img {
-    width: 30px;
-    height: 30px;
-    margin-right: 5px;
+    width: 40px; /* 確保logo大小合適 */
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 0; /* 將logo貼齊左邊 */
 }
 
 .site-title {
     font-size: 1.5em;
     font-weight: bold;
+    color: #000; /* 黑色字體 */
+    font-family: Garamond; /* 設定字體為Garamond */
 }
 
 /* 導航連結樣式 */
@@ -58,16 +60,27 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #ffffff; /* 白色字體 */
     text-decoration: none;
+    background: #d4cfb8; /* 米色背景 */
+    padding: 10px 15px; /* 增加內邊距，讓其像按鈕 */
+    transition: background 0.3s, transform 0.3s; /* 增加動態效果 */
+}
+
+/* 鼠標滑過效果 */
+nav ul li a:hover {
+    background: #c3b9a1; /* 鼠標滑過時改變背景顏色 */
+    transform: translateY(-2px); /* 上移2像素以營造動態感 */
 }
 
 /* 主要內容區域 */
 .main {
-    background: #ffffff;
+    background: #ffffff; /* 白色背景 */
     padding: 20px;
     margin-top: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000; /* 黑色字體 */
+    font-family: Garamond; /* 設定字體為Garamond */
 }
 
 /* 頁腳樣式 */
