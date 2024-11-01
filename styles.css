@@ -21,7 +21,7 @@ h1, h2, h3 {
 
 /* 導航欄樣式 */
 nav {
-    background: #35424a;
+    background: #d4cfb8;
     color: #ffffff;
     padding: 10px 0;
     display: flex;
@@ -36,9 +36,9 @@ nav {
 }
 
 .logo img {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
 }
 
 .site-title {
