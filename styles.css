@@ -22,23 +22,25 @@ h1, h2, h3 {
 nav {
     background: #d4cfb8; /* 米色背景 */
     color: #000000; /* 黑色字體 */
-    padding: 10px 0;
+    padding: 10px 0; /* 上下內邊距 */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start; /* 確保內容靠左對齊 */
+    margin: 0; /* 去掉外邊距 */
 }
 
 /* Logo 和網站名稱 */
 .logo {
     display: flex;
     align-items: center;
+    margin-left: 0; /* 去掉左邊距 */
 }
 
+/* 確保 LOGO 大小合適 */
 .logo img {
     width: 40px; /* 確保logo大小合適 */
     height: 40px;
-    margin-right: 10px;
-    margin-left: 0; /* 將logo貼齊左邊 */
+    margin: 0; /* 去掉邊距 */
 }
 
 .site-title {
